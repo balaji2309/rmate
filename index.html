@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="mailsending(); reset(); return false;"">
+            <h3 class="repo">
+              Report and suggestion!
+            </h3>
+            <input type="text" id="name" placeholder="* Your name" required>
+            <input type="email" id="email" placeholder="* example@vitstudent.ac.in" required pattern="[a-z0-9._%+-]+@vitstudent.ac.in$">
+            <input type="tel" id="mobile" placeholder="* Phone no." required pattern="[0-9]{10}">
+            <input type="text" id="regno" placeholder="* Enter your register number" required pattern="[0-9]{2}[A-Za-z]{3}[0-9]{4}$">
+            <input id="message" rows="4" placeholder="* Your valuable suggestion" required >
+            <h6>*If you press the send button it redirect to your mail 
+            </h6>
+            <button type="submit">
+              Send
+            </button> 
+          </form>
+      </div>
+</body>
+</html>
