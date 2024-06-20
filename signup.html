@@ -6,30 +6,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script type="module" scr="register.js" defer></script>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper1">
+  <!-- Logo Section -->
   <div class="logo">
       <img src="D:\new project\images\login-image.png" alt="" width="429" height="429">
   </div>
+
+  <!-- Application Name -->
   <div class="text-center mt-4 name">
       RMate
   </div>
+
+  <!-- Signup Form -->
   <form class="p-3 mt-3">
       <div class="form-field d-flex align-items-center">
           
-          <input type="text" name="userName" id="userName" placeholder="Username">
-      </div>
-      <div class="form-field d-flex align-items-center">
+          <input type="text" name="userName" id="userName" placeholder="Username" required>
           
-          <input type="password" name="password" id="pwd" placeholder="Password">
       </div>
-      <button class="btn mt-3">Login</button>
+      <div class="form-field d-flex align-items-center" id="left">
+          
+          <input type="password" name="password" id="pwd" placeholder="Password" required>
+      </div>
+      <div class="form-field d-flex align-items-center" id="right">
+          
+          <input type="password" name="password" id="pwd" placeholder="Confirm Password" required>
+      </div>
+      <div class="form-field d-flex align-items-center" id="left">
+          
+        <input type="number" name="mobile" id="mobile" placeholder="Mobile Number" required>
+    </div>
+    <div class="form-field d-flex align-items-center" id="right">
+        
+        <input type="email" name="email" id="email" placeholder="Email Id" required>
+    </div>
+    <div class="form-field d-flex align-items-center" >
+        
+        <textarea id="Address" name="Address" id="Address" rows="4" cols="50" required placeholder="Address"></textarea>
+    </div>
+      <button type="submit" class="btn mt-3">Signup</button>
   </form>
-  <div class="text-center fs-6">
-      <a href="forget.html">Forget password?</a> or <a href="signup.html">Sign up</a>
+
+  <!-- Login Link -->
+  <div class="text-center fs-6" style="text-align: center;">
+    <a href="index.html">Login</a>
   </div>
+
+  <!-- Social Icons -->
   <div class="social_icons_rounded">
     <ul>
         <li><a href="#" class="gap f_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
