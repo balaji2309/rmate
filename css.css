@@ -1,0 +1,105 @@
+/* Group 2 - Apartment Image */
+.group-2 {
+    position: absolute;
+    width: 1013px;
+    height: 328px;
+    left: 0px;
+    top: 184px;
+}
+
+.group-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Ellipse 4 - Semi-Circle Design */
+.ellipse-4 {
+    position: absolute;
+    width: 592px;
+    height: 548px;
+    left: 953px;
+    top: 724px;
+    background: #FBFFCC;
+    border-radius: 50%;
+}
+
+/* HMATE */
+.hmate {
+    position: absolute;
+    width: 606px;
+    height: 125px;
+    left: 0px;
+    top: 33px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ABOUT US */
+.about-us {
+    position: absolute;
+    width: 429px;
+    height: 62px;
+    left: 41px;
+    top: 568px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+
+/* Welcome text */
+.welcome-text {
+    position: absolute;
+    width: 731px;
+    height: 310px;
+    left: 41px;
+    top: 630px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+/* Group 1 - Login and Signup Buttons */
+.group-1 {
+    position: absolute;
+    width: 299px;
+    height: 47px;
+    left: 1119px;
+    top: 48px;
+}
+
+.group-1 button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.group-1 button:hover {
+    background-color: #3e8e41;
+}
+
+/* Group 8 - Search for Location Button */
+.group-8 {
+    position: absolute;
+    width: 357px;
+    height: 57px;
+    left: 1029px;
+    top: 200px;
+}
+
+.group-8 input[type
